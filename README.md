@@ -68,7 +68,7 @@ pgzrun main.py
 ------------------------------------------------------------------------
 
 ## 📂 Estrutura do Projeto
-
+``` bash
 war-blocks/
 ├── assets/                # Pasta com prints de tela
 │   ├── tela_game_over.png # Tela de fim de jogo
@@ -85,6 +85,7 @@ war-blocks/
 ├── LICENSE
 ├── main.py                # Arquivo principal do jogo
 └── README.md              # Este arquivo
+```
 ------------------------------------------------------------------------
 
 ## 📸 Capturas de Tela
