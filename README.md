@@ -62,7 +62,7 @@ pip install pgzero pygame
 ### 4️⃣ Execute o jogo
 
 ``` bash
-pgzrun main.py
+python -m pgzero main.py
 ```
 
 ------------------------------------------------------------------------
