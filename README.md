@@ -70,20 +70,33 @@ pgzrun main.py
 ## 📂 Estrutura do Projeto
 
 war-blocks/
-├── main.py                 # Arquivo principal do jogo
-├── sounds/                 # Pasta de arquivos de áudio
+├── assets/                # Pasta com prints de tela
+│   ├── tela_game_over.png # Tela de fim de jogo
+│   ├── tela_jogo.png      # Tela principal
+│   ├── tela_menu.png      # Tela de entrada
+├── sounds/                # Pasta de arquivos de áudio
 │   ├── menu_bg.ogg        # Música do menu
 │   ├── game_bg.ogg        # Música do jogo
 │   ├── collision.ogg      # Som de colisão
 │   ├── level_complete.ogg # Som de nível completo
 │   ├── exit_found.ogg     # Som de saída encontrada
 │   └── button_click.ogg   # Som de clique de botão
+├── .gitignore             # Arquivo de configuração do git
+├── LICENSE
+├── main.py                # Arquivo principal do jogo
 └── README.md              # Este arquivo
 ------------------------------------------------------------------------
 
-## 📸 Capturas de Tela (exemplo)
+## 📸 Capturas de Tela
 
-*(Adicione prints do jogo aqui)*
+### Tela Inicial
+![Menu Principal](assets/tela_menu.png)
+
+### Gameplay
+![Gameplay](assets/tela_jogo.png)
+
+### Game Over
+![Game Over](assets/tela_game_over.png)
 
 ------------------------------------------------------------------------
 
